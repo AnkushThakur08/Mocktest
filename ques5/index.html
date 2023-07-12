@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation Example</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <form id="registration-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+      <span id="name-error" class="error"></span>
+
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+      <span id="email-error" class="error"></span>
+
+      <br /><br />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" required />
+      <span id="phone-error" class="error"></span>
+
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required />
+      <span id="password-error" class="error"></span>
+
+      <br /><br />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" required />
+      <span id="age-error" class="error"></span>
+
+      <br /><br />
+
+      <label for="gender">Gender:</label>
+      <select id="gender" required>
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <span id="gender-error" class="error"></span>
+
+      <br /><br />
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" required />
+      <span id="date-error" class="error"></span>
+
+      <br /><br />
+
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" required />
+      <span id="color-error" class="error"></span>
+
+      <br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

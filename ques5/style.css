@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.error {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+body {
+  background-color: #758283;
+  font-family: 'Montserrat', 'Gill Sans';
+}
+form {
+  background-color: #242b2e;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 3rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+input[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+input[type='submit']:hover {
+  background-color: #45a049;
+}
+
+span.error {
+  display: block;
+  color: red;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
