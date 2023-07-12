@@ -14,16 +14,12 @@
     <div id="box"></div>
 
     <script>
-      // Get the box element
       const box = document.getElementById('box');
       box.style.cursor = 'pointer';
 
-      // Add event listener for the click event
       box.addEventListener('click', function () {
-        // Change the box color to yellow
         box.style.backgroundColor = 'yellow';
 
-        // Double the box size
         box.style.width = '600px';
         box.style.height = '600px';
       });
